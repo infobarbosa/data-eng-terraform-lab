@@ -1,5 +1,11 @@
-terraform.tfvars
-
 # diretorio do terraform
 .terraform/
+
+# Arquivos de estado e locks do Terraform
+*.tfstate
+*.tfstate.backup
 .terraform.lock.hcl
+
+# Arquivo com valores de variáveis locais e sensíveis
+terraform.tfvars
+*.auto.tfvars
