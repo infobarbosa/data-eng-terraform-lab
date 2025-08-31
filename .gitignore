@@ -2,3 +2,4 @@ terraform.tfvars
 
 # diretorio do terraform
 .terraform/
+.terraform.lock.hcl
