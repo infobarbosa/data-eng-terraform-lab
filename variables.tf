@@ -13,3 +13,8 @@ variable "aws_secret_key" {
     description = "The AWS secret key"
     default     = "COLOQUE_SUA_CHAVE_SECRETA_AQUI"
 }
+
+variable "aws_session_token" {
+    description = "The AWS session token"
+    default     = "COLOQUE_SEU_TOKEN_DE_SESSAO_AQUI"
+}
