@@ -8,18 +8,16 @@ resource "aws_s3_bucket" "dataeng_bucket" {
     }
 }
 
-
-
 resource "aws_s3_object" "dataset_clientes" {
     bucket = aws_s3_bucket.dataeng_bucket.id
     key    = "raw/clientes/clientes.json.gz"
-    source = "./dataset-json-clientes/data/clientes.json.gz"
+    source = "/tmp/data/input/clientes/clientes.json.gz"
 }
 
 resource "aws_s3_object" "dataset_pedidos" {
     bucket = aws_s3_bucket.dataeng_bucket.id
     key    = "raw/pedidos/pedidos-2024-01.csv.gz"
-    source = "./datasets-csv-pedidos/data/pedidos/pedidos-2024-01.csv.gz"
+    source = "/tmp/data/input/pedidos/pedidos-2024-01.csv.gz"
 }
 
 
