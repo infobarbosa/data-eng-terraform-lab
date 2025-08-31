@@ -10,3 +10,4 @@
 terraform.tfvars
 *.auto.tfvars
 
+.terraform.tfstate.lock.info
