@@ -1,0 +1,4 @@
+aws_region    = "us-east-1"
+instance_type = "t2.micro"
+access_key    = "COLOQUE_SUA_CHAVE_DE_ACESSO_AQUI"
+secret_key    = "COLOQUE_SUA_CHAVE_SECRETA_AQUI"
